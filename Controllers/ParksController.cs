@@ -8,7 +8,6 @@ namespace ParksAndRecreationApi.Controllers
   [Route("api/v{version:apiVersion}/[controller]")]
   [ApiVersion("1.0")]
   // [ApiVersion("2.0")]
-public class WeatherForecastController : ControllerBase
   public class ParksController : ControllerBase
   {
     private readonly ParksAndRecreationApiContext _db;
