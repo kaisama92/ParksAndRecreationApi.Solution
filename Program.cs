@@ -36,6 +36,8 @@ builder.Services.AddVersionedApiExplorer(setup =>
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.ConfigureOptions<ConfigureSwaggerOptions>();
+
 var app = builder.Build();
 var apiVersionDescriptionProvider = app.Services.GetRequiredService<IApiVersionDescriptionProvider>();
 
