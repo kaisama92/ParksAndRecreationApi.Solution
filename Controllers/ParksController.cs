@@ -41,7 +41,7 @@ namespace ParksAndRecreationApi.Controllers
       {  
         query = query.Where(entry => entry.ParkId  == id);
       }
-        // Calculate the number of items to skip based on the page size and requested page.
+        // Calculate the number of items to skip based on the page size and requested page. 
         int skip = (page - 1) * pageSize;
 
         // Retrieve the data from your data source, applying the pagination parameters.  
