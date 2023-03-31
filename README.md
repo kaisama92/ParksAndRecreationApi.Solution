@@ -67,7 +67,6 @@ DELETE http://localhost:5000/v2/Parks/{id}
 |Has Play Structure              |hasPlayStructure               |true                         |Bool                  |
 |Page Number                     |page                           |true                         |Int                   |
 |Page Size                       |pageSize                       |true                         |Int                   |
-|--------------------------------|-------------------------------|-----------------------------|----------------------|
 
 ### Further Exploration Objectives Included
 
