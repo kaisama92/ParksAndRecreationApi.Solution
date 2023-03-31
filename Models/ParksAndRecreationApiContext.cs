@@ -4,7 +4,7 @@ namespace ParksAndRecreationApi.Models
 {
   public class ParksAndRecreationApiContext : DbContext
   {
-    public DbSet<Quote> Quotes { get; set; }
+    public DbSet<Park> Parks { get; set; }
 
     public ParksAndRecreationApiContext(DbContextOptions<ParksAndRecreationApiContext> options) : base(options)
     {
