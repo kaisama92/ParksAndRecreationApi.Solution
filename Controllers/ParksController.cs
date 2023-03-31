@@ -19,7 +19,7 @@ namespace ParksAndRecreationApi.Controllers
 
     // GET: api/parks?page=1&pagesize=20
     [HttpGet]
-    public async Task<IActionResult> GetParks( int id, string county, string parkName, bool isStatePark = false, bool isNationalPark = false, int page = 1, bool hasBathrooms = false, bool hasFamilyFriendlyBathrooms = false, int pageSize = 10)
+    public async Task<IActionResult> GetParks( int id, string county, string parkName, bool isStatePark = false, bool isNationalPark = false, int page = 1, bool hasBathrooms = false, bool hasPlayStructure = true, bool hasFamilyFriendlyBathrooms = false, int pageSize = 10)
     {
       IQueryable<Park> query = _db.Parks.AsQueryable();
 
@@ -42,6 +42,10 @@ namespace ParksAndRecreationApi.Controllers
       if (isStatePark)
       {
         query = query.Where(entry => entry.IsStatePark == true);
+      }
+      if (hasPlayStructure)
+      {
+        query = query.Where(entry => entry.HasPlayStructure == true);
       }
       if (county != null)
       {  
