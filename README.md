@@ -81,7 +81,7 @@ _This API implements Versioning to allow the user to keep using the version of t
 
 ## Known Bugs
 
-* _No known bugs_
+* _Changing the version does nothing._
 
 ## License
 
