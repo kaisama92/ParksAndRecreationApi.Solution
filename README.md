@@ -17,7 +17,7 @@
 
 ## Description
 
-_This API was created as an independent project to be submitted for code review to demonstrate an understanding of Many-To-Many databases. The styling was not a priority. It's function _
+_This API was created as an independent project to be submitted for code review to demonstrate an understanding of API construction. The styling was not a priority. It's function _
 
 ## Setup/Installation Requirements
 
