@@ -8,11 +8,8 @@
 
 * _C#_
 * _.Net_
-* _HTML_
-* _CSS_
 * _MySQL_
 * _MySQL Workbench_
-* _Bootstrap (button styling)_
 * _SwashBuckle_
 
 ## Description
